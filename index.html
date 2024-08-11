@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Player Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cricket Player Search</h1>
+        <input type="text" id="playerName" placeholder="Enter player name">
+        <button onclick="searchPlayer()">Search</button>
+
+        <div id="playerList"></div>
+        <div id="playerInfoContainer">
+            <button class="back-button" onclick="showPlayerList()">Back to Player List</button>
+            <div id="playerInfo"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
